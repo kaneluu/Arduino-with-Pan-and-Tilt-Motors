@@ -1,0 +1,11 @@
+I. Parts Needed:
+_Hardware: Arduino UNO, Pan & Tilt Kits, wires.
+_Software: Arduino IDE.
+II. Pan & Tilt Kits:
+_Most of Pan & Tilt Kits are made of two servos. Technically, they are two motors giving the ability to move 360 degrees.
+_Each of the servo consists of three wires: a plus wire (usually red color),  a ground wire (usually black color), and a signal wire (can be yellow or white).
+III. Arduino with Pan & Tilt Kits
+_Connect the plus wires to +5v power of ARDUINO UNO
+_Connect the ground wires to ground GND of ARDUINO UNO
+_Connect the signal wires to any pin numbers of ARDUINO UNO
+IV. Writing Code on the Arduino IDE:
