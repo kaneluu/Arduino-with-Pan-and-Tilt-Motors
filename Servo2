@@ -1,0 +1,37 @@
+// include the library Servo.h for controlling servos
+#include <Servo.h>
+
+Servo servo1;// create servo object to control a servo
+                // a maximum of eight servo objects can be created
+Servo servo2;
+
+int servoPin1 = 4,
+    servoPin2 = 5;
+
+int pos = 0;    // variable to store the servo position
+
+void setup()
+{
+  servo1.attach(servoPin1); // attaches the servo on pin 9 to the servo object
+  servo2.attach(servoPin2); // attaches the servo on pin 8 to the servo object
+}
+
+
+void loop()
+{
+//  for (pos = 0; pos < 90; pos++)
+//  {
+//    servo1.write(pos);
+//    delay(15);
+//  }
+  for (pos = 0; pos <= 180; pos++)
+  {
+    servo1.write(pos);
+    delay(15);
+  }
+  for (pos = 0; pos < 180; pos++)
+  {
+    servo2.write(pos);
+    delay(15);
+  }
+}
