@@ -1,1 +1,1 @@
-# Arduino-with-Pan-and-Tilt-Motors
+# Arduino-with-Pan-and-Tilt-Kits
